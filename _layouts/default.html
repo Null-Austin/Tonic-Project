@@ -1,6 +1,12 @@
 {% include head.html %}
 <html>
   <body>
-    {{ content }}
+    <div id="main-content">
+        <h1 id="title"><span style="color:rgb(243, 157, 28);">></span> {{ page.title }}</h1>
+        <hr>
+        <div id="content">
+            {{ content }}
+        </div>
+    </div>
   </body>
 </html>
