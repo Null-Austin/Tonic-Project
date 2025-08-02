@@ -12,7 +12,7 @@ And you may use this repo for anything, and i dont wanna add an license :/
 ### Uh, this isnt my best work,
 You may find that over on [my github](github.com/null-austin).
 
-Also, self promo :tongue:. [wiki.null-austin.me](wiki.null-austin.me)
+Also, self promo :tongue:. [wiki.null-austin.me](https://wiki.null-austin.me)
 
 #### also
 the sizing sucks, be honest
