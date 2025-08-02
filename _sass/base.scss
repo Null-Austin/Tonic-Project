@@ -14,9 +14,12 @@ body {
   margin: auto;
   color: #dfdfdf;
   #main-content{
-    h1::before{
+    h1::before,h2::before,h3::before,h4::before,h5::before,h6::before{
         content:'> ';
         color:rgb(243, 157, 28);
+    }
+    h3::before,h4::before,h5::before,h6::before{
+        color: #c54747;
     }
     hr{
         border: 1px rgb(82, 82, 82) solid;
@@ -33,6 +36,11 @@ body {
     margin: 0 auto;
     #title{
         padding-left: 20px;
+    }
+    #author{
+        padding-left: 50px;
+        color: rgb(158, 158, 158);
+        font-size: 14px;
     }
     #content{
         width: 95%;
