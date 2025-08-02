@@ -18,8 +18,11 @@ body {
         content:'> ';
         color:rgb(243, 157, 28);
     }
-    h3::before,h4::before,h5::before,h6::before{
+    h2::before{
         color: #c54747;
+    }
+    h3::before,h4::before,h5::before,h6::before{
+        color: #e02f2f;
     }
     hr{
         border: 1px rgb(82, 82, 82) solid;
@@ -36,6 +39,7 @@ body {
     margin: 0 auto;
     #title{
         padding-left: 20px;
+        font-size: 64px;
     }
     #author{
         padding-left: 50px;
@@ -46,6 +50,10 @@ body {
         width: 95%;
         margin: 0 auto;
         font-size: 20px;
+    }
+    p,span,a{
+        font-size: 25px;
+        color:#aaaaaa;
     }
   }
 }
